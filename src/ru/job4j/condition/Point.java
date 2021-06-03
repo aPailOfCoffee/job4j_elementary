@@ -7,11 +7,11 @@ public class Point {
     }
 
     public static void main(String[] args) {
-        double result = Point.distance(0, 0, 2,0);
+        double result = Point.distance(0, 0, 2, 0);
         System.out.println("result (0,0) to (2, 0) " + result);
-        result = Point.distance(0, 1, 5,2);
+        result = Point.distance(0, 1, 5, 2);
         System.out.println("result (0,1) to (5, 2) " + result);
-        result = Point.distance(2, 1, 1,7);
+        result = Point.distance(2, 1, 1, 7);
         System.out.println("result (2,1) to (1, 7) " + result);
     }
 }
