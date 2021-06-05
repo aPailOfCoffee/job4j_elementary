@@ -18,7 +18,7 @@ public class SqAreaTest {
     public void whenP37K4Square54DotEtc() {
         double p = 37;
         double k = 4;
-        double expected = 54.760000000000005;
+        double expected = 54.760;
         double out = SqArea.square(p, k);
         assertEquals(expected, out, 0.001);
     }
@@ -27,7 +27,7 @@ public class SqAreaTest {
     public void whenP5K3Square1DotEtc() {
         double p = 5;
         double k = 3;
-        double expected = 1.171875;
+        double expected = 1.171;
         double out = SqArea.square(p, k);
         assertEquals(expected, out, 0.001);
     }
