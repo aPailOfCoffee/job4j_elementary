@@ -45,4 +45,15 @@ public class FindLoopTest {
         int expected = -1;
         assertEquals(expected, result);
     }
+
+    @Test
+    public void whenFindLast() {
+        int[] data = {5, 2, 10, 2, 1};
+        int el = 1;
+        int start = 2;
+        int finish = 4;
+        int result = FindLoop.indexOf(data, el, start, finish);
+        int expected = 4;
+        assertEquals(expected, result);
+    }
 }
