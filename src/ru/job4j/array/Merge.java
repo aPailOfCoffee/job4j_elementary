@@ -13,9 +13,7 @@ public class Merge {
                 if (leftInd == left.length && rightInd < right.length) {
                     rsl[rslInd] = right[rightInd++];
                 } else {
-                    if (rightInd == right.length && leftInd < left.length) {
-                        rsl[rslInd] = left[leftInd++];
-                    }
+                    rsl[rslInd] = left[leftInd++];
                 }
             }
         }
